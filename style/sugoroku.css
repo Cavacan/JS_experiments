@@ -43,10 +43,12 @@ body {
   border-radius: 50%;
 }
 
-.cell.occupied {
+.cell.occupied-player1,
+.cell.occupied-player2 {
   color: transparent;
 }
 
-.cell.occupied.player-icon {
+.cell.occupied-player1 player-icon,
+.cell.occupied-player2 player-icon {
   color: initial;
 }
