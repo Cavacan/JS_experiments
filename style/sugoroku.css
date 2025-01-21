@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#roll-dice {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#dice-result {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#map {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-icon {
+  margin-left: -5px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.cell.occupied {
+  color: transparent;
+}
+
+.cell.occupied.player-icon {
+  color: initial;
+}
