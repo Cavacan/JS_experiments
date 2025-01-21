@@ -1,0 +1,14 @@
+body {
+  margin: 50px;
+}
+.container {
+  background-color: rgb(255, 255, 240);
+  width: 500px;
+  height: 500px;
+  border: 2px dotted;
+}
+
+.input {
+  margin: 10px;
+  border: 2px solid;
+}
