@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Container for content */
+.container {
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Title styling */
+.title {
+  font-size: 24px;
+  color: #4caf93;
+  margin-bottom: 20px;
+}
+
+/* Link styles */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #82caff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.link:active {
+  transform: translateY(0);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Link individual colors */
+.link:nth-child(1) {
+  background-color: #ffa4a4;
+}
+
+.link:nth-child(2) {
+  background-color: #ffda83;
+}
+
+.link:nth-child(3) {
+  background-color:chartreuse;
+}
+
+.link:nth-child(4) {
+  background-color:orchid;
+}
